@@ -1,3 +1,14 @@
+1.git init;
+2.git config user.name "github의 프로필 이름"
+  git config user.email "github 로그인 아이디" // 신원확인용
+3.git add test.html // 파일 add
+4.git commint -m "첫번째 커밋"
+5.git branch -M main // 브랜치 이름을 main으로 설정
+6.git remote add origin https://github.com/junpyo2580/memo.git
+7.git push -u origin main
+
+
+
 git config user.name "junpyo2580"
 git config --global --unset user.email
 git config --list
