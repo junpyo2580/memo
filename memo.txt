@@ -6,7 +6,7 @@
 5.git branch -M main // 브랜치 이름을 main으로 설정
 6.git remote add origin https://github.com/junpyo2580/memo.git
 7.git push -u origin main
-
+ㅇㅇㅇㅇㅇㅇ
 
 
 git config user.name "junpyo2580"
