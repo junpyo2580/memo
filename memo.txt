@@ -1,0 +1,22 @@
+git config user.name "junpyo2580"
+git config --global --unset user.email
+git config --list
+
+git branch //목록 보기
+git checkout test1 // branch를 test1을 생성해서 바꾸기
+git merge test1 // test1을 main과 병합
+git branch -d test1 // test1 branch삭제
+
+
+respository
+// remote 바꾸기
+git remote set-url origin https://github.com/junpyo2580/test1.git
+// 전체 remote 보기
+PS C:\odlo\gitStudy> remote -v
+
+//remote 전체 삭제후 새로 등록
+git remote remove origin // 
+git remote add origin https://github.com/kimhosung/new-repo.git
+
+// 기존 유지하면서 새 remote 추가
+git remote add backup https://github.com/kimhosung/backup-repo.git
